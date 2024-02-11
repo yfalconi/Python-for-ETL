@@ -1,0 +1,16 @@
+Crear un kernel en jupyter notebook
+
+	pip install ipykernel
+
+Saliendo del entorno virtual
+
+	deactivate.
+
+Añadimos el kernel al notebook:
+	python -m ipykernel install --user --name=<myvenv>
+
+Instalando jupyter notebook:
+	pip install notebook
+
+Inspeccionando los kernels creados:
+	jupyter kernelspec list
